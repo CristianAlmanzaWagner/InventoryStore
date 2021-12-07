@@ -1,4 +1,4 @@
-package com.almanza.inventory.controller.player.dto;
+package com.almanza.inventory.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
@@ -10,11 +10,11 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class PlayerDTO {
+public class ShoeModel {
     @JsonProperty("id")
     private Integer id;
     @JsonProperty("name")
     private String name;
-    @JsonProperty("number")
-    private Integer number;
+    @JsonProperty("brand")
+    private String brand;
 }

@@ -1,4 +1,4 @@
-package com.almanza.inventory.controller.player.dto;
+package com.almanza.inventory.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,8 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class PlayerToAddDTO {
+public class ShoeToUpdateModel {
+    private Integer id;
     private String name;
-    private Integer number;
+    private String brand;
 }
